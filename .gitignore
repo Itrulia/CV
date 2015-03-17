@@ -1,0 +1,11 @@
+# Folders
+.idea
+.sass-cache
+.vagrant
+bower_components
+dist
+node_modules
+
+# Files
+*.sublime-project
+*.sublime-workspace

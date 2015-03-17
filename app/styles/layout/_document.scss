@@ -1,0 +1,50 @@
+.document__header {
+	padding-bottom: 0.75cm;
+
+	img {
+		border-radius: 50%;
+		margin-right: 12pt;
+		display: inline-block;
+	}
+
+	h1 {
+		font-size: 18pt;
+		line-height: 1;
+		margin: 0;
+		font-weight: 400;
+	}
+
+	h2 {
+		font-size: 10pt;
+	}
+}
+
+.document__wrapper {
+	display: inline-block;
+	p {
+		margin: 0;
+	}
+}
+
+.document__footer {
+	width: 100%;
+	text-align: center;
+	position: relative;
+
+	&::before {
+		content: '';
+		display: inline-block;
+		width: 30px;
+		height: 1px;
+		background: #555;
+	}
+	
+	&::after {
+		counter-increment: page;
+		content: counter(page);
+		display: inline-block;
+		font-size: 10pt;
+		width: 100%;
+		text-align: center;
+	}
+}

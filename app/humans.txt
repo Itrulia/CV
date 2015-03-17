@@ -1,0 +1,11 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Karl Merkli -- CEO -- @KarlMerkli
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Normalize.css, Animate.css

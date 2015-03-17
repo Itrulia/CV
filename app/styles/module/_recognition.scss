@@ -1,0 +1,25 @@
+.recognition {
+	display: table;
+	width: 100%;
+}
+
+.recognition__icon {
+	width: 1%;
+	font-size: 32pt;
+}
+
+
+.recognition__description {
+	width: 100%;
+	padding-left: 12pt;
+
+	p {
+		margin: 0;
+	}
+}
+
+.recognition__icon,
+.recognition__description {
+	display: table-cell;
+	vertical-align: middle;
+}

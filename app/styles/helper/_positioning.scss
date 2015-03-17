@@ -1,0 +1,16 @@
+%position--left,
+.position--left {
+	float: left;
+}
+
+%position--right,
+.position--right {
+	float: right;
+}
+
+%position--center,
+.position--center {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}

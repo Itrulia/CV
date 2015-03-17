@@ -1,0 +1,65 @@
+.alpha,
+%alpha {
+	font-family: $sans-serif;
+	font-size: 48px;
+	font-weight: 300;
+}
+
+.beta,
+%beta {
+	font-family: $sans-serif;
+	font-size: 48px;
+	font-weight: 300;
+}
+
+.gamma,
+%gamma {
+	font-family: $sans-serif;
+	font-size: 48px;
+	font-weight: 300;
+}
+
+.delta,
+%delta {
+	font-family: $sans-serif;
+	font-size: 48px;
+	font-weight: 300;
+}
+
+.epsilon,
+%epsilon {
+	font-family: $sans-serif;
+	font-size: 48px;
+	font-weight: 300;
+}
+
+.zeta,
+%zeta {
+	font-family: $sans-serif;
+	font-size: 48px;
+	font-weight: 300;
+}
+
+h1 {
+	@extend %alpha;
+}
+
+h2 {
+	@extend %beta;
+}
+
+h3 {
+	@extend %gamma;
+}
+
+h4 {
+	@extend %delta;
+}
+
+h5 {
+	@extend %epsilon;
+}
+
+h6 {
+	@extend %zeta;
+}
