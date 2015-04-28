@@ -16,6 +16,11 @@ angular.module('routing', ['ui.router']).config(['$stateProvider', '$locationPro
 		templateUrl: "/views/webtiser.html"
 	});
 
+	$stateProvider.state('turtle', {
+		url: '/turtle',
+		templateUrl: "/views/turtle.html"
+	});
+
 	$stateProvider.state('riot', {
 		url: '/riot',
 		templateUrl: "/views/riot.html"
